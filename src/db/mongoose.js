@@ -3,11 +3,11 @@ const mongoose = require('mongoose')
 const dbUrl = process.env.DB_URL
 
 class Database {
-  constructor() {
+  constructor () {
     this._connect()
   }
 
-  _connect() {
+  _connect () {
     mongoose.connect(dbUrl, {
       useNewUrlParser: true,
       useCreateIndex: true,
