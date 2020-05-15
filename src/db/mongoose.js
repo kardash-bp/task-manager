@@ -1,15 +1,14 @@
 const mongoose = require('mongoose')
 
-const server = process.env.DB_HOST
-const database = process.env.DB_NAME
+const dbUrl = process.env.DB_URL
 
 class Database {
-  constructor () {
+  constructor() {
     this._connect()
   }
 
-  _connect () {
-    mongoose.connect(`mongodb://${server}/${database}`, {
+  _connect() {
+    mongoose.connect(dbUrl, {
       useNewUrlParser: true,
       useCreateIndex: true,
       useUnifiedTopology: true,
