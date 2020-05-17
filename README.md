@@ -33,7 +33,7 @@ EMAIL_PASS=your password
 # jwt
 JWT_SECRET=somestingrandom
 ```
-)pen terminal and type:
+Open terminal and type:
 
 **npm run dev**
 
