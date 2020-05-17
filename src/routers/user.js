@@ -18,6 +18,7 @@ router.post('/users', async (req, res) => {
     await user.save()
     sendEmail(user.email, user.name, 'Thanks for joining in.', `Welcome to the app, ${user.name}. Let me know how you get along with the app.`)
     const token = await user.generateAuthToken()
+
     res.status(201).send({ user, token })
   } catch (err) {
     res.status(400).send(err.message)
