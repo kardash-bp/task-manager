@@ -23,7 +23,17 @@ Install local npm dependencies:
 **npm install**
 
 ## Launch application
-To launch app in terminal type:
+To launch app in root folder create **.env** file and copy / paste:
+```
+PORT=3000
+DB_URL=mongodb://127.0.0.1:27017/task-api
+# gmail login credentials
+EMAIL_USER=your username
+EMAIL_PASS=your password
+# jwt
+JWT_SECRET=somestingrandom
+```
+)pen terminal and type:
 
 **npm run dev**
 
