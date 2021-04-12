@@ -7,7 +7,7 @@
 * [Launch application](#launch-application)
 * [Tests](#tests)
 ## General info
-Task manager is a sample todo application with  user authentication and authorization, automated email sending, handling file uploads, automated testing...
+Task manager is a sample todo application with  user authentication and authorization.
 ## Technologies
 Built With:
 * Node.js/Express 
