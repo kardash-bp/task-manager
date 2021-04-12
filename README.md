@@ -16,7 +16,7 @@ Built With:
 ## Installing
 Clone this git repository:
 
-**git clone https://github.com/cmevawala/nodejs-todo-app.git**
+**git clone https://github.com/kardash-bp/task-manager.git**
 
 Install local npm dependencies:
 
